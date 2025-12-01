@@ -847,68 +847,67 @@ md:before:w-[24rem] md:before:h-8 md:before:bg-[#1b2316] md:before:rounded-b-[50
             </div>
         </div><br><br>
 
-        <footer class="bg-[#1b2316] border-t border-white/10 py-12">
-            <div class="max-w-9xl mx-auto px-4 md:px-8">
+     <footer class="bg-[#1b2316] border-t border-white/10 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 mb-12">
 
-
-                    <div class="space-y-4">
-                        <div class="flex relative items-center gap-2">
-                            <img src="./public/images/plantPot.png"
-                                class="h-42 absolute right-[19rem] w-42 translate-y-[5.2rem]" alt="Logo" />
-                            <h3 class="text-white text-2xl translate-x-[2rem] font-bold">Planto.</h3>
-                        </div>
-
-                        <p class="text-white/60 text-lg leading-relaxed">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </p>
-
-                        <div class="flex gap-4 pt-2">
-                            <button class="text-white hover:text-green-400 transition font-medium text-sm">FB</button>
-                            <button class="text-white hover:text-green-400 transition font-medium text-sm">TW</button>
-                            <button class="text-white hover:text-green-400 transition font-medium text-sm">LI</button>
-                        </div>
-                    </div>
-
-
-                    <div class="space-y-4 translate-x-[10rem]">
-                        <h4 class="text-white text-lg font-semibold">Quick Links</h4>
-                        <ul class="space-y-2">
-                            <li><a href="#" class="text-white/60 hover:text-white transition text-lg">Home</a></li>
-                            <li><a href="#" class="text-white/60 hover:text-white transition text-lg">Types of
-                                    Plants</a>
-                            </li>
-                            <li><a href="#" class="text-white/60 hover:text-white transition text-lg">Contact</a></li>
-                            <li><a href="#" class="text-white/60 hover:text-white transition text-lg">Privacy</a></li>
-                        </ul>
-                    </div>
-
-
-                    <div class="space-y-4">
-                        <h4 class="text-white text-lg font-semibold">For Every Update.</h4>
-
-                        <div class="flex flex-col sm:flex-row gap-3">
-                            <input type="email" placeholder="Enter Email" class="flex-1 px-4 py-2.5 bg-white/10 border border-white/20 text-white 
-                        text-sm placeholder-white/40 focus:outline-none focus:border-white/40" />
-
-                            <button class="px-6 py-2.5 bg-white md:relative md:right-[8.3rem] md:h-9 md:top-[0.2rem] text-green-900 font-semibold text-sm 
-                        hover:bg-green-100 transition whitespace-nowrap">
-                                SUBSCRIBE
-                            </button>
-                        </div>
-                    </div>
-
+            <!-- Logo & Description -->
+            <div class="space-y-4">
+                <div class="flex items-center gap-2 relative">
+                    <img src="./public/images/plantPot.png"
+                        class="h-16 w-16 sm:h-20 sm:w-20 md:w-44 md:h-44 absolute -left-5 sm:-left-14 -top-1" alt="Logo" />
+                    <h3 class="text-white text-2xl sm:text-3xl -translate-x-5 font-bold ml-12 sm:ml-16">Planto.</h3>
                 </div>
 
+                <p class="text-white/60 text-sm sm:text-base leading-relaxed">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                </p>
 
-                <div class="pt-8 border-t border-white/10 text-center">
-                    <p class="text-white/60 text-sm">Planto © All Rights Reserved</p>
+                <div class="flex gap-4 pt-2">
+                    <button class="text-white hover:text-green-400 transition font-medium text-sm">FB</button>
+                    <button class="text-white hover:text-green-400 transition font-medium text-sm">TW</button>
+                    <button class="text-white hover:text-green-400 transition font-medium text-sm">LI</button>
                 </div>
-
             </div>
-        </footer>
+
+            <!-- Quick Links -->
+            <div class="space-y-4">
+                <h4 class="text-white text-lg font-semibold">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-white/60 hover:text-white transition text-sm sm:text-base">Home</a></li>
+                    <li><a href="#" class="text-white/60 hover:text-white transition text-sm sm:text-base">Types of Plants</a></li>
+                    <li><a href="#" class="text-white/60 hover:text-white transition text-sm sm:text-base">Contact</a></li>
+                    <li><a href="#" class="text-white/60 hover:text-white transition text-sm sm:text-base">Privacy</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="space-y-4">
+                <h4 class="text-white text-lg font-semibold">For Every Update.</h4>
+
+                <div class="flex flex-col gap-3">
+                    <input type="email" placeholder="Enter Email" 
+                        class="w-full px-4 py-2.5 bg-white/10 border border-white/20 rounded text-white 
+                        text-sm placeholder-white/40 focus:outline-none focus:border-white/40 transition" />
+
+                    <button class="w-full sm:w-auto px-6 py-2.5 bg-white text-green-900 font-semibold text-sm 
+                        rounded hover:bg-green-100 transition whitespace-nowrap">
+                        SUBSCRIBE
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="pt-8 border-t border-white/10 text-center">
+            <p class="text-white/60 text-xs sm:text-sm">Planto © All Rights Reserved</p>
+        </div>
+
+    </div>
+</footer>
 
 </body>
 
